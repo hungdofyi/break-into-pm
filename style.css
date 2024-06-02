@@ -640,7 +640,10 @@ ul.curr__demos {
 	}
 
 	&:first-child > img {
+		width: 100%;
 		aspect-ratio: auto;
+		object-fit: contain;
+		background: white;
 	}
 }
 
