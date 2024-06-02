@@ -535,7 +535,7 @@ strong[class="highlight"] {
 }
 
 ul.curriculum__list {
-	margin-bottom: var(--m-80);
+	margin-bottom: var(--m-48);
 
 	& > * + * {
 		margin-top: var(--m-24);
@@ -604,8 +604,8 @@ ul.curriculum__list {
 	color: var(--fg);
 }
 
-ul.curr__demos {
-	margin-top: var(--m-48);
+.curr__demos {
+	margin-top: var(--m-80);
 	display: grid;
 	grid: 1fr 1fr / 1fr 1fr;
 	gap: var(--gap-24);
