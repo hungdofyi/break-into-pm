@@ -682,7 +682,11 @@ th {
 th,
 td {
 	border-bottom: solid 1px var(--border);
-	padding-right: var(--p-32);
+	padding-right: var(--p-48);
+}
+
+td + td {
+	width: 20%;
 }
 
 thead th {
@@ -690,6 +694,11 @@ thead th {
 	line-height: 2rem;
 	font-weight: 500;
 	color: var(--text-primary);
+}
+
+.data-wrapper {
+	display: flex;
+	gap: var(--gap-16);
 }
 
 .table--title {
