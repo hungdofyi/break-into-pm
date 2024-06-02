@@ -535,7 +535,7 @@ strong[class="highlight"] {
 }
 
 ul.curriculum__list {
-	margin-bottom: var(--m-48);
+	margin-bottom: var(--m-80);
 
 	& > * + * {
 		margin-top: var(--m-24);
